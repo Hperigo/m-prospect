@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="static/main.css">
+    <title>Henrique Périgo</title>
 </head>
 <body>
     <div class="center-container">
@@ -12,11 +13,21 @@
             <h2>
                 Henrique Penteado Kujawski Périgo
             </h2>
+            <div class='about-container'>
+               <!-- <img src="static/thumbs/me.png"></img> -->
             <p>
-                TODO: Description
-                <a href="https://www.hperigo.com.br"> www.hperigo.com </a>
+                Hello there!
             </p>
-            
+            <p>
+                I’m a software developer and creative technologist based in São Paulo, Brazil. I have a bachelor's degree in graphic design, with a proven track record in motion design, projection mapping, TV and stage design. Currently, I’m a lead developer at Sosolimited.
+            </p>
+            <p>
+                In this page, you’ll find a selection of my work, which I gathered specially for my MIT Media Lab application. If accepted at the MIT, I hope to research the future of creative coding frameworks in the context of newer graphics APIs (Vulkan and WebGPU). As my main passion, I enjoy discovering and developing tools to create engaging experiences. 
+            </p>
+            <p>
+                For more, please visit <a href="https://www.hperigo.com.br">www.hperigo.com </a>
+            </p>
+        </div>
         </div>
 
         <div id="links-container">
@@ -30,7 +41,7 @@
                         <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
                             <source src="./static/akamai_thumb.mp4" type="video/mp4">
                         </video>
-                        <div class="banner-desc">A dynamic chandelier that visualizes real Akamai server data from the network through animations of light. [C++, Openframeworks] </div>
+                        <div class="banner-desc">A dynamic chandelier that visualizes real Akamai server data from the network through animations of light.  </div>
                     </div>
                 </a>
                 
@@ -40,7 +51,7 @@
                     <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
                         <source src="./static/planet_word.mp4" type="video/mp4">
                     </video>
-                    <div class="banner-desc">Touch screen artwork for Planet Word museum [ C++, Openframeworks ]</div>
+                    <div class="banner-desc">Touch screen artwork for Planet Word museum.</div>
                 </div>
                 </a>
 
@@ -69,7 +80,7 @@
                 </a>
                 <a href="/pages/white_mirror.html">
                     <div class="work-banner-container">
-                        <div class="banner-title" >🚌 Egis</div>
+                        <div class="banner-title" >🚌 Fortaleza</div>
                         <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
                             <source src="./static/egis_thumb.mp4" type="video/mp4">
                         </video>
@@ -89,6 +100,14 @@
         </div>
     </div>
     <style> 
+
+        .about-container{
+            /* display:flex; */
+        }
+
+        .about-container p{
+            /* max-width: 430px; */
+        }
 
         .category-container{
             margin-top: 50px;
@@ -118,12 +137,20 @@
             color:black;
             font-size: 14pt;
         }
+        .work-banner-container video{
+            margin-top:10px;
+        }
         .work-banner-container img{
             width:auto;
             height:200px;
             margin-top:10px;
         }
 
+        .banner-cat{
+            background-color: #ead6d6;
+            color: #5a5d60;
+            padding: 2px;
+        }
         .banner-desc{
             color:#4e4b4b;
             line-height: 15pt;

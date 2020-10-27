@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="/m-prospect/main.02f92574.css">
+    <link rel="stylesheet" type="text/css" href="/main.702ea904.css">
 </head>
 <body>
 
     <div class="center-container">
         <div class="header-container">
-            <h1>
-                MIT - Media Lab Portfolio
-            </h1>
-            <h2>
-                Henrique Penteado Kujawski Périgo
-            </h2>
-            <p>
-                Map Beacon is a touch screen installation for the Planet Word museum.
-            </p>
+                <h1>
+                    MIT - Media Lab Portfolio
+                </h1>
+                <h2>
+                    Henrique Penteado Kujawski Périgo
+                </h2>
+            <div class="link-to-home">
+                <a href="/"> ☜ back </a>
+            </div>
         </div>
-        <a href="/"> ☜ BACK </a>
-    
+        <div class="content-container">
+
+            <h1>
+                Planet Word
+            </h1>
+            <video controls="" style="width:100%">
+                <source src="/planet_word-user-input.3515860a.mp4" type="video/mp4">  
+            </video>
+            <p>
+                In this interactive installation, visitors at the Planet Word museum are asked to answer three simple questions on touch screens: how many languages do they speak, what are these languages, and where do they currently live.
+            </p>
+            <p>
+                As a reaction to user interaction, an animation featuring colorful bubbles appears on screen. Each bubble represents a language and is connected to the illustration of a dot, which symbolizes speakers and where they live. Related languages were organized into groups of
+                similar colors. If visitors would scroll through the connections, they would unfold the story of
+                visitors that visited the museum prior to them.                
+            </p>
+            <p>
+                The particle system is using a varlet integration method on a secondary thread
+            together with a space partition library made ( simon ). That way we were able
+            to run the physics with around 40k particles.
+            </p>
+            <div class="collumn-container">
+                <div class="collumn">
+                    <img src="/pw_particles-4.97f50639.png">
+                    <div class="description"> Particle system coloring with language set on the left </div>
+                </div>
+            </div>
+            <div class="collumn-container">
+                <div class="collumn"> <img src="/pw_particles-1.344af86a.png"> </div>
+                <div class="collumn"> <img src="/pw-particles-2.8ba99a78.png"> </div>
+            </div>
+            <div class="collumn-container">
+                <div class="collumn"> <img src="/pw_particles-3.b4438506.png"> </div>
+                <div class="collumn"> <img src="/pw_particles-5.cdcf7e7e.jpg"> </div>
+            </div>
+            <p>
+                After getting the particle system in a solid state, I moved my focus to making
+            the 3D world. For rendering we simply used an instance system in OpenGL and a
+            geometry shader technique for the line rendering.
+            </p>
+            <video controls="" style="width:100%">
+                <source src="/pw-geometry-shader.cbeb6b62.mp4" type="video/mp4">  
+            </video>
+        </div>
     </div>
 </body>
