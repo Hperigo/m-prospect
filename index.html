@@ -158,12 +158,19 @@
         }
     </style>
     <script>
+        window.onload = function(){
+
+            for( var el in document.getElementsByTagName('video') ){
+            //  console.log(el);
+            }
+        }
+
         function playVideo(e){
-            // e.play();
+            e.play();
         }
 
         function stopVideo(e){
-            // e.pause();
+            e.pause();
         }
     </script>
 </body>
