@@ -21,9 +21,12 @@
             <h1>
                 Planet Word
             </h1>
-            <video controls style="width:100%">
-                <source src="/static/videos/planet_word-user-input.mp4" type="video/mp4">  
-            </video>
+            <div class='video-container'>
+                <video controls style="width:100%">
+                    <source src="/static/videos/planet_word-user-input.mp4" type="video/mp4">  
+                </video>
+                <div class='desc'>Openframeworks app running with artificial data</div>
+            </div>
             <p>
                 In this interactive installation, visitors at the Planet Word museum are asked to answer three simple questions on touch screens: how many languages do they speak, what are these languages, and where do they currently live.
             </p>
@@ -33,14 +36,14 @@
                 visitors that visited the museum prior to them.                
             </p>
             <p>
-                The particle system is using a varlet integration method on a secondary thread
+                The particle system is using a verlet integration method on a secondary thread
             together with a space partition library made ( simon ). That way we were able
-            to run the physics with around 40k particles.
+            to run the physics with around 40k particles even when doing particle to particle colision.
             </p>
             <div class='collumn-container'>
                 <div class='collumn'>
                     <img src="../static/images/pw_particles-4.png">
-                    <div class='description'> Particle system coloring with language set on the left </div>
+                    <div class='desc'>Initial particle system tests</div>
                 </div>
             </div>
             <div class='collumn-container'>
@@ -56,9 +59,26 @@
             the 3D world. For rendering we simply used an instance system in OpenGL and a
             geometry shader technique for the line rendering.
             </p>
-            <video controls style="width:100%">
-                <source src="/static/videos/pw-geometry-shader.mp4" type="video/mp4">  
-            </video>
+            <div class='video-container'>
+                <video controls style="width:100%">
+                    <source src="/static/videos/pw-geometry-shader.mp4" type="video/mp4">  
+                </video>
+                <div class='desc'>Bezier line generated on the geometry shader</div> 
+            </div>
+
+            <div class='video-container'>
+                <video controls style="width:100%">
+                    <source src="/static/videos/pw_call-to-action.mp4" type="video/mp4">  
+                </video>
+                <div class='desc'>Call to action mode</div> 
+            </div>
+        </div>
+
+        <div class="footer-container"> 
+            <div class="link-to-home" >
+                <a href="/"> ☜ back </a>
+            </div>
         </div>
     </div>
+
 </body>
