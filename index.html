@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="static/main.css">
+    <meta name="viewport" content="width=device-width"/>
     <title>Henrique Périgo</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
                         <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
                             <source src="./static/akamai_thumb.mp4" type="video/mp4">
                         </video>
-                        <div class="banner-desc">A dynamic chandelier that visualizes real Akamai server data from the network through animations of light.  </div>
+                        <div class="banner-desc">A dynamic chandelier that visualizes real Akamai server data from the network through animations of light. <span class='more-link'>more →</span>  </div>
                     </div>
                 </a>
                 
@@ -51,7 +52,7 @@
                     <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
                         <source src="./static/planet_word.mp4" type="video/mp4">
                     </video>
-                    <div class="banner-desc">Touch screen artwork for Planet Word museum.</div>
+                    <div class="banner-desc">Touch screen artwork for Planet Word museum. <span class='more-link'>more →</span></div>
                 </div>
                 </a>
 
@@ -63,7 +64,19 @@
                     <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
                         <source src="./static/white_mirror_thumb.mp4" type="video/mp4">
                     </video>
-                    <div class="banner-desc">A permanent installation at Nubank’s headquarters.</div>
+                    <div class="banner-desc">A permanent installation at Nubank’s headquarters. <span class='more-link'>more →</span></div>
+                </div>
+                </a>
+            </div>
+            <a href="/pages/jacto.html">
+                <div class="work-banner-container">
+                    <div class="banner-title" >💌 Jacto</div>
+                    <!-- <img src="static/thumbs/thumb-white-mirror-01.png"> -->
+                    <!-- </img> -->
+                    <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
+                        <source src="./static/jacto_thumb.mp4" type="video/mp4">
+                    </video>
+                    <div class="banner-desc">A vector eddititing tool inspired by kirigame shapes. <span class='more-link'>more →</span></div>
                 </div>
                 </a>
             </div>
@@ -75,7 +88,7 @@
                         <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
                             <source src="./static/stpm_thumb.mp4" type="video/mp4">
                         </video>
-                        <div class="banner-desc">Video Clip</div>
+                        <div class="banner-desc">Stage design for Stop Play Moon band. <span class='more-link'>more →</span></div>
                     </div>
                 </a>
                 <a href="/pages/fortaleza.html">
@@ -84,7 +97,7 @@
                         <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
                             <source src="./static/egis_thumb.mp4" type="video/mp4">
                         </video>
-                        <div class="banner-desc">Video Clip</div>
+                        <div class="banner-desc">Directed and animated video for Fortaleza city. <span class='more-link'>more →</span></div>
                     </div>
                 </a>
             </div>
@@ -155,6 +168,10 @@
             color:#4e4b4b;
             line-height: 15pt;
             margin-top:10px;
+        }
+        .more-link{
+            text-decoration: underline;
+            color:#5295d0;
         }
     </style>
     <script>
