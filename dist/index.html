@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/m-prospect/main.e3910e32.css">
+    <link rel="stylesheet" type="text/css" href="/m-prospect/main.87dd9ce3.css">
     <meta name="viewport" content="width=device-width">
     <title>Henrique Périgo</title>
 </head>
 <body>
-    <div class="center-container">
+    <div class="center-container home">
         <div class="header-container">
             <h1>
                 MIT - Media Lab Portfolio
@@ -20,10 +20,10 @@
                 Hello there!
             </p>
             <p>
-                I’m a software developer and creative technologist based in São Paulo, Brazil. I have a bachelor's degree in graphic design, with a proven track record in motion design, projection mapping, TV and stage design. Currently, I’m a lead developer at Sosolimited.
+                I'm a self-taught developer with extensive experience creating installations and interactive experiences. My primary tool is C++, but I can easily navigate a technical landscape that goes from javascript, OpenGL, game development to Motion Design. Currently, I work as a lead developer for Sosolimited, creating LED sculptures, touch screens, and web-apps. 
             </p>
             <p>
-                In this page, you’ll find a selection of my work, which I gathered specially for my MIT Media Lab application. If accepted at the MIT, I hope to research the future of creative coding frameworks in the context of newer graphics APIs (Vulkan and WebGPU). As my main passion, I enjoy discovering and developing tools to create engaging experiences. 
+                On this page, you'll find a selection of my work, which I gathered, especially for my MIT Media Lab application, where I hope to continue my research on the future of creative coding frameworks in the context of newer graphics APIs (Vulkan and WebGPU).
             </p>
             <p>
                 For more, please visit <a href="https://www.hperigo.com.br">www.hperigo.com.br</a>
@@ -39,7 +39,7 @@
                     <div class="work-banner-container">
                         <div class="banner-title">💡 Iluminated Edge</div>
                         <!-- <img src="static/thumbs/thumb-illuminated-edge2-01.png"></img> -->
-                        <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
+                        <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" autoplay="" playsinline="" muted="" loop="" style="width:100%">
                             <source src="/m-prospect/akamai_thumb.9f56c808.mp4" type="video/mp4">
                         </video>
                         <div class="banner-desc">A dynamic chandelier that visualizes real Akamai server data from the network through animations of light. <span class="more-link">more →</span>  </div>
@@ -49,7 +49,7 @@
                 <a href="/m-prospect/pages/planet_word.html">
                 <div class="work-banner-container">
                     <div class="banner-title">🌎 Planet word</div>
-                    <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
+                    <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" autoplay="" playsinline="" muted="" loop="" style="width:100%">
                         <source src="/m-prospect/planet_word.946f511f.mp4" type="video/mp4">
                     </video>
                     <div class="banner-desc">Touch screen artwork for Planet Word museum. <span class="more-link">more →</span></div>
@@ -60,7 +60,7 @@
                         <div class="banner-title">💌 Jacto</div>
                         <!-- <img src="static/thumbs/thumb-white-mirror-01.png"> -->
                         <!-- </img> -->
-                        <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
+                        <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" autoplay="" playsinline="" muted="" loop="" style="width:100%">
                             <source src="/m-prospect/jacto_thumb.9ce9fbd4.mp4" type="video/mp4">
                         </video>
                         <div class="banner-desc">A vector eddititing tool inspired by kirigame shapes. <span class="more-link">more →</span></div>
@@ -72,7 +72,7 @@
                     <div class="banner-title">⚪️ White Mirror</div>
                     <!-- <img src="static/thumbs/thumb-white-mirror-01.png"> -->
                     <!-- </img> -->
-                    <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
+                    <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" autoplay="" playsinline="" muted="" loop="" style="width:100%">
                         <source src="/m-prospect/white_mirror_thumb.b61ae0c9.mp4" type="video/mp4">
                     </video>
                     <div class="banner-desc">A permanent installation at Nubank’s headquarters. <span class="more-link">more →</span></div>
@@ -85,7 +85,7 @@
                 <a href="/m-prospect/pages/stop_play_moon.html">
                     <div class="work-banner-container">
                         <div class="banner-title">📼 Stop Play Moon</div>
-                        <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
+                        <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" autoplay="" playsinline="" muted="" loop="" style="width:100%">
                             <source src="/m-prospect/stpm_thumb.98a0cc9a.mp4" type="video/mp4">
                         </video>
                         <div class="banner-desc">Stage design for Stop Play Moon band. <span class="more-link">more →</span></div>
@@ -94,7 +94,7 @@
                 <a href="/m-prospect/pages/fortaleza.html">
                     <div class="work-banner-container">
                         <div class="banner-title">🚌 Fortaleza</div>
-                        <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" playsinline="" muted="" loop="" style="width:100%">
+                        <video onmouseout="stopVideo(this);" onmouseenter="playVideo(this);" autoplay="" playsinline="" muted="" loop="" style="width:100%">
                             <source src="/m-prospect/egis_thumb.edcdc02e.mp4" type="video/mp4">
                         </video>
                         <div class="banner-desc">Directed and animated video for Fortaleza city. <span class="more-link">more →</span></div>
@@ -110,7 +110,19 @@
                     </a>
             </div>
         </div>
-    <style>.category-container h3{
+    <style>.home{
+            width:50%;
+            max-width: 1000px;
+            min-width: 640px;
+        }
+
+        @supports (-webkit-touch-callout: none) {
+            .home{
+                min-width: 350px;
+            }
+        }
+
+        .category-container h3{
             
             border-top: lightgray;
             border-top-style: none;
@@ -162,11 +174,9 @@
   }
 };
 
-function playVideo(e) {
-  e.play();
+function playVideo(e) {// e.play();
 }
 
-function stopVideo(e) {
-  e.pause();
+function stopVideo(e) {// e.pause();
 }</script>
 </body>
